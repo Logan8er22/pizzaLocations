@@ -1,0 +1,61 @@
+extends layout
+
+block content
+  .row.banner
+    .col-12
+      h1 Loc8r
+        small &nbsp;Find the best pizza near you!
+  .row
+    .col-12.col-md-8
+
+      .card
+        .card-block
+          h4
+            a(href="/location") Domino's
+            small &nbsp;
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star-o
+              i.fa.fa-star-o
+            span.badge.badge-pill.badge-default.float-right 100m
+          p.address 301 N 23rd St Ste B, Canyon, TX 79015
+          .facilities
+            span.badge.badge-warning Large drinks
+            span.badge.badge-warning Food
+            span.badge.badge-warning Delivery
+
+      .card
+        .card-block
+          h4
+            a(href="/location") Pizza Hut
+            small &nbsp;
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star-o
+              i.fa.fa-star-o
+              i.fa.fa-star-o
+            span.badge.badge-pill.badge-default.float-right 200m
+          p.address 110 23rd St, Canyon, TX 79015
+          .facilities
+            span.badge.badge-warning Large drinks
+            span.badge.badge-warning Food
+            span.badge.badge-warning Delivery
+
+      .card
+        .card-block
+          h4
+            a(href="/location") La Bella Pizza
+            small &nbsp;
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+            span.badge.badge-pill.badge-default.float-right 500m
+          p.address 700 23rd St, Canyon, TX 79015
+          .facilities
+            span.badge.badge-warning Food
+
+    .col-12.col-md-4
+      p.lead Looking for the best pizza? Loc8r helps you find pizza resturants nearby.
